@@ -13,7 +13,7 @@ class AdventOfCodeCli(click.MultiCommand):
                 rv.append(filename[:-3])
         rv.sort()
         return rv
-    
+
     def get_command(self, ctx, name):
         ns = {}
         fn = os.path.join(plugin_folder, name + '.py')
