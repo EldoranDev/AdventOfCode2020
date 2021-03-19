@@ -1,5 +1,4 @@
 from src.lib.input import getInput
-import time
 
 def first(data):
     for a in data:
